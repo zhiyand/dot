@@ -9,3 +9,9 @@ vim:
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	# install plugins
 	vim +PluginInstall +qall
+
+tmux:
+	# backup original tmux settings
+	mv ~/.tmux.conf ~/.tmux.conf.bk
+	# link new tmux settings
+	ln -s `pwd`/tmux/tmux.conf ~/.tmux.conf
