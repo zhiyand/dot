@@ -1,4 +1,4 @@
-vim:
+vim-conf:
 	# backup original vim settings
 	mv ~/.vimrc ~/.vimrc.bk
 	mv ~/.vim ~/.vim.bk
@@ -10,7 +10,7 @@ vim:
 	# install plugins
 	vim +PluginInstall +qall
 
-tmux:
+tmux-conf:
 	# backup original tmux settings
 	mv ~/.tmux.conf ~/.tmux.conf.bk
 	# link new tmux settings
