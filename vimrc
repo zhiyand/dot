@@ -12,9 +12,10 @@ set nonumber                   "Deactivate line numbers
 ""
 " Visuals
 ""
+set background=dark
+"set t_Co=256                        " force vim to use 256 colors
+"let g:solarized_termcolors=256      " use solarized 256 fallback
 colorscheme solarized
-set t_Co=256                        " force vim to use 256 colors
-let g:solarized_termcolors=256      " use solarized 256 fallback
 
 " Set background of the line number column to the same as the main background
 highlight LineNr ctermbg=bg
@@ -107,6 +108,18 @@ nmap <C-R> :CtrlPBufTag<cr>
 
 " Navigate to recent files
 nmap <C-E> :CtrlPMRUFiles<cr>
+
+
+
+""
+" UltiSnips ----------------
+""
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-n>"
+let g:UltiSnipsJumpBackwardTrigger="<c-b>"
+
+" Open :UltiSnipsEdit in a split
+let g:UltiSnipsEditSplit="vertical"
 
 ""
 " Functions
