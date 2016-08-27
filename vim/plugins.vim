@@ -11,6 +11,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'rking/ag.vim'
 Plugin 'skwp/greplace.vim'
+Plugin 'posva/vim-vue'
 
 
 " All of your Plugins must be added before the following line
