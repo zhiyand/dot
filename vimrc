@@ -3,7 +3,7 @@ set nocompatible              "be iMproved, required
 source ~/.vim/plugins.vim     "Load plugins via Vundle
 
 syntax enable
-filetype on
+filetype plugin indent on
 set backspace=indent,eol,start "Make backspace behave like every other editor
 let mapleader=','              "Using comma instead of the default '\' as the leader key
 set nonumber                   "Deactivate line numbers
