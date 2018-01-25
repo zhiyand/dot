@@ -7,6 +7,7 @@ filetype plugin indent on
 set backspace=indent,eol,start "Make backspace behave like every other editor
 let mapleader=','              "Using comma instead of the default '\' as the leader key
 set nonumber                   "Deactivate line numbers
+set directory=/tmp        " Stash swap files in tmp
 
 
 ""
@@ -21,7 +22,6 @@ colorscheme solarized
 highlight LineNr ctermbg=bg
 
 " Fake a left padding of one character
-set foldcolumn=1
 highlight foldcolumn ctermbg=bg
 
 " Get rid of split borders
